@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <section class="task-card">
+            <h1>Task Manager</h1>
+            <p>Organize your learning tasks as you grow into a Full-Stack AI Developer.</p>
+
+            <form id="task-form">
+                <input 
+                    type="text" 
+                    id="task-input" 
+                    placeholder="Enter a new task..." 
+                    required
+                >
+                <button type="submit">Add Task</button>
+            </form>
+
+            <ul id="task-list"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
